@@ -8,10 +8,10 @@ VERSION:	Versoin Number
 [TABLE OF CONTENTS]
 -------------------------------------------------------------------*/
 /*  typography */
-@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Roboto:300,400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:300,400,500,700");
 @font-face {
-  font-family: 'BwNistaInt-xBd';
-  src: url("../plugins/fonts/BwNistaInt-xBd.woff") format("woff");
+  font-family: 'montserrat';
+  src: url("https://fonts.googleapis.com/css?family=montserrat:400,700|Roboto:300,400,500,700");
   font-style: normal;
   font-display: swap;
 }
@@ -38,7 +38,7 @@ p-lg, .paragraph-lg {
 
 h1, h2, h3, h4, h5, h6 {
   color: #000;
-  font-family: "Playfair Display", serif;
+  font-family: "montserrat", serif !important;
   line-height: 1.2;
 }
 
@@ -81,7 +81,7 @@ h6, .h6 {
 /* Button style */
 .btn {
   font-size: 22px;
-  font-family: "Playfair Display", serif;
+  font-family: "Montserrat";
   text-transform: capitalize;
   padding: 16px 44px;
   border-radius: 5px;
@@ -217,7 +217,7 @@ a:hover {
 
 .section-title {
   margin-bottom: 80px;
-  font-family: "BwNistaInt-xBd";
+  font-family: "montserrat";
 }
 
 .bg-cover {
@@ -327,11 +327,11 @@ a:hover {
 }
 
 .font-secondary {
-  font-family: "Playfair Display", serif !important;
+  font-family: "montserrat" !important;
 }
 
 .font-tertiary {
-  font-family: "BwNistaInt-xBd" !important;
+  font-family: "montserrat" !important;
 }
 
 .shadow {
@@ -409,6 +409,7 @@ textarea.form-control {
 /* card */
 .card {
   border: 0;
+  margin-top:20px;
 }
 
 .card-header {
@@ -444,7 +445,7 @@ textarea.form-control {
 }
 
 .navbar .nav-item .nav-link {
-  font-family: "BwNistaInt-xBd";
+  font-family: "montserrat";
   text-transform: uppercase;
   padding: 15px;
 }
@@ -776,7 +777,7 @@ blockquote {
 }
 
 .content strong {
-  font-family: "Playfair Display", serif;
+  font-family: "montserrat";
   font-size: 22px;
   font-weight: normal;
   color: #000;
@@ -908,3 +909,16 @@ blockquote {
 }
 
 /*# sourceMappingURL=maps/style.css.map */
+.infoCard{
+  width:90%;
+  text-align: center;
+  border-radius: 0 0 15px  15px;
+  margin-top: 20px;
+}
+.imageInfo{
+  width:90%;
+}
+
+.ContactsInfo{
+  text-align: center;
+}
