@@ -937,7 +937,7 @@ blockquote {
 }
 @media (min-width:768px){
   .upperRow{
-    margin-top: 30px;
+    margin-top: 50px;
   }
 }
 .nav-link{
@@ -950,4 +950,7 @@ blockquote {
   text-align: center;
   margin-top: 20px;
   color:white;
+}
+.font-tertiary{
+  font-weight: 700;
 }
