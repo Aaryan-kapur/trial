@@ -923,8 +923,8 @@ blockquote {
   text-align: center;
 }
 .imageUpper{
-  z-index: 100;
-  /* border: 0 !important; */
+  z-index: 100 !important;
+
 }
 .backUpper{
   /* z-index: -1000 !important; */
