@@ -922,3 +922,10 @@ blockquote {
 .ContactsInfo{
   text-align: center;
 }
+.imageUpper{
+  z-index: 1;
+  border: 0 !important;
+}
+.backUpper{
+  /* z-index: -1000 !important; */
+}
