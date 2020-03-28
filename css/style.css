@@ -929,3 +929,17 @@ blockquote {
 .backUpper{
   /* z-index: -1000 !important; */
 }
+
+
+.textUpper{
+  z-index: 100 !important;
+  font-size: 90%;
+}
+@media (min-width:768px){
+  .upperRow{
+    margin-top: 30px;
+  }
+}
+.nav-link{
+  font-weight: 600;
+}
