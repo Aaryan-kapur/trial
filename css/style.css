@@ -943,3 +943,11 @@ blockquote {
 .nav-link{
   font-weight: 600;
 }
+.buttonUpper{
+  border-radius: 40px;
+}
+.buttone{
+  text-align: center;
+  margin-top: 20px;
+  color:white;
+}
